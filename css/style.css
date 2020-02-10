@@ -1,0 +1,27 @@
+body{
+    background: #ccc;
+    font-family: sans-serif;
+}
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+#date {
+    padding: 20px;
+    background: teal;
+    font-size: 30px;
+    color: white;
+}
+input{
+    width: 95%;
+    padding: 10px;
+}
+.content {
+    padding: 20px;
+    background: orange;
+}
+ul{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
