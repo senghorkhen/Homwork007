@@ -21,11 +21,13 @@ document.addEventListener("keyup", event => {
   if (event.code === "Enter") {
     const inputValue = INPUT_HTML.value;
 
-    if (inputValue != null) {
+    if (inputValue) {
       // 1. add the todo
       addTodo(inputValue)
       // 2.  Clear input
       clearInput();
+    }else{
+      "";
     }
   }
 });
